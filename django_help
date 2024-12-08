@@ -5,7 +5,7 @@ python manage.py runserver - команда для запуска приложе
 
 команды для подгрузки контентов (модельки в таблице базы данных):
 python manage.py makemigrations - создает таблицы в базе данных
-python manage.py migrate - приминяет созданные изминения
+python manage.py migrate - применяет созданные изминения
 
 python manage.py cratesuperuser - создание администратора
 python manage.py startapp 'appname (имя приложения)' - создание приложения

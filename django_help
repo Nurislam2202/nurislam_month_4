@@ -1,5 +1,5 @@
 pip install django - скачать django
-django-admin startproject 'nameproject' . - создание проекта django
+django-admin startproject nameproject . - создание проекта django
 ( . - чтобы создать проект сразу же в данном проекте)
 python manage.py runserver - команда для запуска приложения
 
@@ -8,4 +8,4 @@ python manage.py makemigrations - создает таблицы в базе да
 python manage.py migrate - применяет созданные изминения
 
 python manage.py cratesuperuser - создание администратора
-python manage.py startapp 'appname (имя приложения)' - создание приложения
+python manage.py startapp appname (имя приложения) - создание приложения

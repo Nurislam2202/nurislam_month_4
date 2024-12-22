@@ -1,0 +1,3 @@
+ORM - object relational mapping
+
+posts = Post.objects.all() == SELECT * FROM posts

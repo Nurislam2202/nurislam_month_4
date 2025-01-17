@@ -18,4 +18,4 @@ def html_view(request):
 
 def posts_list_view(request):
     posts = Post.objects.all()
-    return render(request, "posts/post_view.html", context={"posts": posts})
+    return render(request, "posts/post_list.html", context={"posts": posts})
